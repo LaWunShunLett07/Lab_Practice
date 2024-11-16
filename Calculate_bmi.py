@@ -16,5 +16,5 @@ def calculate_bmi():
 
 
 
-if __name__=='__main__':#put space between if and __ and must be 'main'
+if __name__=='__main__':#put space between if and __ and must be '__main__'
     calculate_bmi()
