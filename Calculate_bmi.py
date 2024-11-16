@@ -1,6 +1,6 @@
-def calculate_bmi():
-    height=float(input('Enter height:'))
-    weight=float(input('Enter weight:'))
+def calculate_bmi(height,weight):
+    #height=float(input('Enter height:'))
+    #weight=float(input('Enter weight:'))
     BMI= weight/height*height
     print("BMI is "+str(BMI))
     if(BMI<18.5):
